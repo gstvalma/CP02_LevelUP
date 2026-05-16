@@ -1,0 +1,9 @@
+﻿tarefa,tecnica,acuracia,acertos,total
+classificacao,zero_shot,0.0,0,5
+classificacao,few_shot,0.0,0,5
+classificacao,chain_of_thought,0.0,0,5
+classificacao,role_prompting,0.0,0,5
+extracao,zero_shot,0.0,0,5
+extracao,few_shot,0.0,0,5
+extracao,chain_of_thought,0.0,0,5
+extracao,role_prompting,0.0,0,5

@@ -1,0 +1,31 @@
+{
+  "classificacao": [
+    {"entrada": "Produto horrível, veio diferente da foto.", "saida": "NEGATIVO"},
+    {"entrada": "Melhor compra que já fiz! Qualidade incrível.", "saida": "POSITIVO"},
+    {"entrada": "Produto ok, nada especial. Entrega demorou um pouco.", "saida": "NEUTRO"}
+  ],
+  "extracao": [
+    {
+      "entrada": "Quero cancelar o pedido #SP-0011 comprado em 01/01/2025 por R$100,00.",
+      "saida": {"numero_pedido": "#SP-0011", "data_compra": "01/01/2025", "valor": "R$100,00", "intencao": "cancelamento"}
+    },
+    {
+      "entrada": "Cadê meu pedido #BA-9900 de 15/02/2025? Paguei R$75,50.",
+      "saida": {"numero_pedido": "#BA-9900", "data_compra": "15/02/2025", "valor": "R$75,50", "intencao": "rastreamento"}
+    },
+    {
+      "entrada": "Preciso da nota do pedido #MG-4400, comprado em 20/03/2025, R$430,00.",
+      "saida": {"numero_pedido": "#MG-4400", "data_compra": "20/03/2025", "valor": "R$430,00", "intencao": "nota_fiscal"}
+    }
+  ],
+  "geracao": [
+    {
+      "entrada": {"produto": "Câmera de Segurança Wi-Fi", "categoria": "Eletrônicos", "preco": "R$249,90"},
+      "saida": "Proteja sua casa com inteligência! A Câmera de Segurança Wi-Fi oferece monitoramento em tempo real pelo celular, visão noturna e detecção de movimento. Qualidade profissional ao alcance de todos. Por apenas R$249,90, a tranquilidade que você merece está a um clique."
+    },
+    {
+      "entrada": {"produto": "Cadeira Gamer ProX", "categoria": "Móveis", "preco": "R$899,00"},
+      "saida": "Eleve sua performance com a Cadeira Gamer ProX! Design ergonômico, apoio lombar ajustável e revestimento premium para longas sessões sem desconforto. Conquiste vitórias com estilo. Investimento de R$899,00 que transforma sua setup."
+    }
+  ]
+}

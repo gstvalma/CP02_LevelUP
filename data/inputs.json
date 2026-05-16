@@ -1,0 +1,23 @@
+{
+  "classificacao": [
+    {"id": 1, "texto": "O produto chegou quebrado e o suporte não respondeu em 5 dias."},
+    {"id": 2, "texto": "Entrega super rápida! Produto exatamente como descrito. Recomendo!"},
+    {"id": 3, "texto": "Qualidade mediana, esperava mais pelo preço pago. Entrega ok."},
+    {"id": 4, "texto": "Fui cobrado duas vezes. Péssimo serviço, nunca mais compro aqui."},
+    {"id": 5, "texto": "Produto bom, embalagem danificada mas o item estava intacto."}
+  ],
+  "extracao": [
+    {"id": 1, "texto": "Quero devolver o pedido #BR-4821 comprado em 10/04/2025 por R$349,90."},
+    {"id": 2, "texto": "Meu pedido #SP-9934 do dia 02/05/2025 ainda não chegou. Valor: R$89,00."},
+    {"id": 3, "texto": "Preciso de nota fiscal do pedido #RJ-1102, compra de 15/03/2025, R$1.250,00."},
+    {"id": 4, "texto": "Cancelar pedido #MG-5500 realizado ontem, 12/05/2025, no valor de R$210,50."},
+    {"id": 5, "texto": "Rastrear encomenda #BA-3371 de 28/04/2025, paguei R$540,00 no pix."}
+  ],
+  "geracao": [
+    {"id": 1, "produto": "Fone Bluetooth XZ-200", "categoria": "Eletrônicos", "preco": "R$199,90"},
+    {"id": 2, "produto": "Tênis Runner Pro", "categoria": "Calçados Esportivos", "preco": "R$349,00"},
+    {"id": 3, "produto": "Panela Elétrica Gourmet", "categoria": "Cozinha", "preco": "R$289,90"},
+    {"id": 4, "produto": "Mochila Executiva Carbon", "categoria": "Acessórios", "preco": "R$159,00"},
+    {"id": 5, "produto": "Monitor Curvo 27\"", "categoria": "Informática", "preco": "R$1.899,00"}
+  ]
+}
